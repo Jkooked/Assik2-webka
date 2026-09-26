@@ -1,16 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Browser</title>
-<link rel="stylesheet" href="style.css">
+  <title>Assignment #2 — Flexbox & Grid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-  <body>
-    <div class="header">
- 	   <a href="">Home</a>
-      <a href="">About me</a>      
-      <a href="">My contacts</a>
-     </div>
-</body>
+<body>
 
+  <header class="site-header">
+    <img src="mylogo.png" alt="Logo" class="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">My contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="cards">
+    <div class="card">
+      <h1>About me</h1>
+      <img src="my-photo.png" alt="My Photo" class="profile-photo">
+      <p>Hello! My name is Ainaz Abitay. I am a student at the Astana IT University. 
+        I am passionate about web development and enjoy creating interactive and user-friendly websites. 
+        In my free time, I like to explore new technologies and improve my coding skills.</p>
+      <button class="instagram-button" onclick="window.location.href='about.html'">Follow on Instagram</button>
+    </div>
+
+    <div class="card">
+      <h1>My contacts</h1>
+      <img src="contact-icon.png" alt="Contact Icon" class="contact-icon">
+      <p>You can reach me via email at ainaz.abitay@gmail.com</p>
+      <button class="contact-button" onclick="window.location.href='mailto:ainaz.abitay@gmail.com'">Contact Me</button>
+    </div>
+
+    <div class="card">
+      <h1>My projects</h1>
+      <img src="project-icon.png" alt="Project Icon" class="project-icon">
+      <p>I have worked on several web development projects, including personal websites, e-commerce platforms, 
+        and interactive web applications. I am always looking for new opportunities to collaborate and contribute to exciting projects.</p>
+      <button class="project-button" onclick="window.location.href='https://github.com/Jkooked'">View Projects</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <header class="section-header">
+      <h1>My favorite games</h1>
+    </header>
+
+    <aside class="sidebar">
+      <ul>
+        <li><a href="#">Roblox</a></li>
+        <li><a href="#">Minecraft</a></li>
+        <li><a href="#">Counter-Strike</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <h1>Why I Love These Games</h1>
+      <p>
+        Gaming has always been more than just a hobby for me — it's a way to relax,
+        challenge myself, and connect with friends around the world. Each game on my
+        list offers something unique, from creative freedom to fast-paced competition.
+      </p>
+    </main>
+
+  </div>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="game1.jpg" alt="Game 1">
+      <p class="caption">Game 1 </p>
+    </div>
+    <div class="gallery-item">
+      <img src="game2.jpg" alt="Game 2">
+      <p class="caption">Game 2 </p>
+    </div>
+    <div class="gallery-item">
+      <img src="game3.png" alt="Game 3">
+      <p class="caption">Game 3 </p>
+    </div>
+    <div class="gallery-item">
+      <img src="game4.png" alt="Game 4">
+      <p class="caption">Game 4 </p>
+    </div>
+    <div class="gallery-item">
+      <img src="game5.png" alt="Game 5">
+      <p class="caption">Game 5 </p>
+    </div>
+    <div class="gallery-item">
+      <img src="game6.png" alt="Game 6">
+      <p class="caption">Game 6 </p>
+    </div>
+    <div class="gallery-item">
+      <img src="game7.png" alt="Game 7">
+      <p class="caption">Game 7 </p>
+    </div>
+    <div class="gallery-item">
+      <img src="game8.png" alt="Game 8">
+      <p class="caption">Game 8 </p>
+    </div>
+    <div class="gallery-item">
+      <img src="game9.png" alt="Game 9">
+      <p class="caption">Game 9 </p>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <p>&copy; 2026 My Webpage. All rights reserved.</p>
+  </footer>
+
+  <section class="portfolio">
+
+    <header class="portfolio-header">
+      <h2>My Portfolio</h2>
+      <nav>
+        <ul class="portfolio-nav">
+          <li><a href="#">All</a></li>
+          <li><a href="#">Web</a></li>
+          <li><a href="#">Design</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="projects">
+      <h3>Projects</h3>
+
+      <div class="project-card">
+        <h4>Portfolio Website</h4>
+        <p>A personal portfolio built with pure HTML, CSS, Flexbox and Grid.</p>
+        <button>View Project</button>
+      </div>
+
+      <div class="project-card">
+        <h4>E-commerce Platform</h4>
+        <p>An online store with product cards, cart layout and responsive grid.</p>
+        <button>View Project</button>
+      </div>
+
+      <div class="project-card">
+        <h4>Interactive Web App</h4>
+        <p>A JavaScript-powered web application with dynamic UI components.</p>
+        <button>View Project</button>
+      </div>
+
+      <div class="project-card">
+        <h4>Landing Page</h4>
+        <p>A modern landing page with flexbox navigation and grid sections.</p>
+        <button>View Project</button>
+      </div>
+    </div>
+
+    <aside class="info">
+      <h3>Info</h3>
+      <p><strong>Name:</strong> Ainaz Abitay</p>
+      <p><strong>Role:</strong> Front-End Developer</p>
+      <p><strong>Skills:</strong> HTML, CSS, Flexbox, Grid, JavaScript</p>
+      <p><strong>Location:</strong> Astana, Kazakhstan</p>
+      <p><strong>Email:</strong> ainaz.abitay@gmail.com</p>
+      <button class="contact-btn" onclick="window.location.href='mailto:ainaz.abitay@gmail.com'">
+        Contact Me
+      </button>
+    </aside>
+
+    <footer class="portfolio-footer">
+      <p>&copy; 2026 Ainaz Abitay. All rights reserved.</p>
+    </footer>
+
+  </section>
+</body>
 </html>
