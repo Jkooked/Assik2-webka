@@ -86,3 +86,5 @@ For **Part 1**, I utilized Flexbox to handle the header navigation and the card 
 For **Part 2**, I transitioned to CSS Grid. I found `grid-template-areas` particularly useful for the page layout task, as it made the structure very readable. For the image gallery, `repeat()` and `1fr` units helped create a responsive grid quickly.
 
 For **Part 3**, the main challenge was combining both layout models effectively. I used Flexbox for the micro-layout (inside the cards and header) and Grid for the macro-layout (the overall page structure). This combination proved to be very powerful and efficient. I also ensured the design was responsive and consistent throughout.
+
+## https://jkooked.github.io/Assik2-webka/
